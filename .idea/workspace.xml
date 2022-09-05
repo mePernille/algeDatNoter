@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algeDatNoter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uke35Opg/Tabell.java" afterDir="false" />
+    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="lagt til projekt">
+      <change afterPath="$PROJECT_DIR$/src/Uke35Opg/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uke35Opg/Tabell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uke35Opg/Tabell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +52,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662110833617</updated>
-      <workItem from="1662110835032" duration="497000" />
+      <workItem from="1662110835032" duration="10746000" />
     </task>
+    <task id="LOCAL−00001" summary="lagt til projekt">
+      <created>1662111439275</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1662111439275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lagt til projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagt til projekt" />
   </component>
 </project>
