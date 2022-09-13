@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="lagt til oppgave 1.2.4">
+      <change afterPath="$PROJECT_DIR$/src/ForelesningKode/JavaGenerics1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obligEnTest/ObligEnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obligEnTest/ObligEnTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
       <workItem from="1662453253955" duration="2249000" />
       <workItem from="1662455767379" duration="77000" />
       <workItem from="1662455915694" duration="19000" />
+      <workItem from="1663051458947" duration="4255000" />
     </task>
     <task id="LOCAL−00001" summary="lagt til projekt">
       <created>1662111439275</created>
@@ -67,7 +70,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1662387244545</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="lagt til oppgave 1.2.4">
+      <created>1663051474173</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1663051474173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
