@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="lagt til oppgave 1.2.4">
-      <change afterPath="$PROJECT_DIR$/src/ForelesningKode/JavaGenerics1.java" afterDir="false" />
+    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="Lagt til forelæsningskode">
+      <change afterPath="$PROJECT_DIR$/src/ForelesningKode/Recursion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uke37og38opg/TabellFortsat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obligEnTest/ObligEnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obligEnTest/ObligEnTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,9 @@
       <workItem from="1662453253955" duration="2249000" />
       <workItem from="1662455767379" duration="77000" />
       <workItem from="1662455915694" duration="19000" />
-      <workItem from="1663051458947" duration="4255000" />
+      <workItem from="1663051458947" duration="4377000" />
+      <workItem from="1663587666008" duration="4005000" />
+      <workItem from="1663657074100" duration="522000" />
     </task>
     <task id="LOCAL−00001" summary="lagt til projekt">
       <created>1662111439275</created>
@@ -76,7 +78,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1663051474173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Lagt til forelæsningskode">
+      <created>1663058892073</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1663058892073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lagt til projekt" />
     <MESSAGE value="lagt til oppgave 1.2.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lagt til oppgave 1.2.4" />
+    <MESSAGE value="Lagt til forelæsningskode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagt til forelæsningskode" />
   </component>
 </project>
