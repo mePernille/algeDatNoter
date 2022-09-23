@@ -1,9 +1,14 @@
 package eksempelklasser;
 
+import Uke35Opg.Tabell;
+import uke37og38opg.TabellFortsat;
+
+import java.util.Arrays;
+
 public class omslagsklasse {
 
     // denne helttalls klassen blir som den integreret type Integer som man vanligvis ville bruke
-    public final class Heltall implements Comparable<Heltall>{
+    public static final class Heltall implements Comparable<Heltall>{
         private final int verdi; // et heltall som instansvariabel
         public Heltall(int verdi){this.verdi = verdi;} //konstruktør
         public int compareTo(Heltall h){
@@ -20,4 +25,5 @@ public class omslagsklasse {
         public String toString() { return Integer.toString(verdi); }
 
     }
+
 }

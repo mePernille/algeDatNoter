@@ -1,5 +1,10 @@
 package uke37og38opg;
 
+import eksempelklasser.Maaned;
+import eksempelklasser.Student;
+import eksempelklasser.Studium;
+import eksempelklasser.omslagsklasse;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -103,30 +108,56 @@ public class TabellFortsat {
 
         int[] a = {5,2,7,3,9,1,8,4,6};
         double[] d = {5.7,3.14,7.12,3.9,6.5,7.1,7.11};
-        String[] s = {"Sohil","Per","Thanh","Fatima","Kari","Jasmin"};
+        String[] stir = {"Sohil","Per","Thanh","Fatima","Kari","Jasmin"};
         char[] c = "JASMIN".toCharArray();
         String[] ss = {"Per", "Kari","Ole","Anne","Ali","Eva"};
 
 
         int l = TabellFortsat.maks(d);     // posisjonen til den største i d
-        int m = TabellFortsat.maks(s);     // posisjonen til den største i s
+        int m = TabellFortsat.maks(stir);     // posisjonen til den største i s
         int se = TabellFortsat.maks(c); // posisjonen til den største verdi i c
 
         // Integer[] aaa = randPermInteger(20);
         // skriv(aaa);
 
 
-
+ /*
         double[] ddd = {5.7,3.14,7.12,3.9,6.5,7.1,7.11};
         Double[] ccc = new Double[ddd.length];
         for(int i = 0; i< ddd.length; i++) ccc[i] = ddd[i];
 
         innsettingssortering(ccc);
         skrivln(ccc);
-        /*
+
         TabellFortsat.innsettingssortering(ss);
         System.out.println(Arrays.toString(ss));
         */
-    }
 
+        int[] tabellos = {5,2,7,3,9,1,8,10,4,6};          // en int-tabell
+        omslagsklasse.Heltall[] h = new omslagsklasse.Heltall[a.length];       // en Heltall-tabell
+
+        for (int i = 0; i < h.length; i++) h[i] = new omslagsklasse.Heltall(a[i]);
+        TabellFortsat.innsettingssortering(h);           // generisk sortering
+        System.out.println(Arrays.toString(h));   // utskrift
+
+        for (Studium dut : Studium.values())
+        {
+            System.out.println(dut.toString() + " (" + dut.name() + ")");
+        }
+
+        Student[] s = new Student[5];  // en Studenttabell
+
+        s[0] = new Student("Kari", "Svendsen", Studium.Data);    // Kari Svendsen
+        s[1] = new Student("Boris", "Zukanovic", Studium.IT);    // Boris Zukanovic
+        s[2] = new Student("Ali", "Kahn", Studium.Anvendt);      // Ali Kahn
+        s[3] = new Student("Azra", "Zukanovic", Studium.IT);     // Azra Zukanovic
+        s[4] = new Student("Kari", "Pettersen", Studium.Data);   // Kari Pettersen
+
+        TabellFortsat.innsettingssortering(s);                     // Programkode 1.4.2 e)
+        for (Student t : s) System.out.println(t);
+
+        for ( Maaned mnd : Maaned.høst()){
+            System.out.println(mnd.toString() + " ( " + mnd.name() + ") " + mnd.mndnr());
+        }
+    }
 }
