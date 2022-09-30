@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="Lagt til opgaver i delkapitel 1.4">
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Maaned.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Studium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oblig2Test/Oblig2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oblig2Test/metodenMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Komparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksempelklasser/omslagsklasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksempelklasser/omslagsklasse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uke37og38opg/TabellFortsat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uke37og38opg/TabellFortsat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prnll/OneDrive/Documents/DATS2300 algoritmer&amp;data/algdat-2022-oblig-2-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,6 +48,40 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.metodenMain">
+    <configuration name="TabellFortsat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uke37og38opg.TabellFortsat" />
+      <module name="algeDatNoter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uke37og38opg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="metodenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oblig2Test.metodenMain" />
+      <module name="algeDatNoter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oblig2Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.metodenMain" />
+        <item itemvalue="Application.TabellFortsat" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +98,11 @@
       <workItem from="1663587666008" duration="4005000" />
       <workItem from="1663657074100" duration="4387000" />
       <workItem from="1663758834819" duration="9181000" />
-      <workItem from="1663933180004" duration="6292000" />
+      <workItem from="1663933180004" duration="6317000" />
+      <workItem from="1664189676393" duration="8997000" />
+      <workItem from="1664440803129" duration="223000" />
+      <workItem from="1664454184818" duration="1661000" />
+      <workItem from="1664531112491" duration="2487000" />
     </task>
     <task id="LOCAL−00001" summary="lagt til projekt">
       <created>1662111439275</created>
@@ -109,7 +146,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1663933216107</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Lagt til opgaver i delkapitel 1.4">
+      <created>1663963003537</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1663963003537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
