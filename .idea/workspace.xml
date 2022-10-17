@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="Lagt til opgaver i delkapitel 1.4">
-      <change afterPath="$PROJECT_DIR$/src/Oblig2Test/Oblig2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oblig2Test/metodenMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Komparator.java" afterDir="false" />
+    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="laget en test dobbeltlenket liste">
+      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/EnkeltLenketListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Stakk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kapitelFire/TabellStakk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kapitelTre/Beholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kapitelTre/NodeTrening.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uke37og38opg/TabellFortsat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uke37og38opg/TabellFortsat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.metodenMain">
+  <component name="RunManager" selected="Application.NodeTrening">
+    <configuration name="NodeTrening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kapitelTre.NodeTrening" />
+      <module name="algeDatNoter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kapitelTre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TabellFortsat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uke37og38opg.TabellFortsat" />
       <module name="algeDatNoter" />
@@ -77,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NodeTrening" />
         <item itemvalue="Application.metodenMain" />
         <item itemvalue="Application.TabellFortsat" />
       </list>
@@ -102,7 +117,8 @@
       <workItem from="1664189676393" duration="8997000" />
       <workItem from="1664440803129" duration="223000" />
       <workItem from="1664454184818" duration="1661000" />
-      <workItem from="1664531112491" duration="2487000" />
+      <workItem from="1664531112491" duration="7277000" />
+      <workItem from="1666021180837" duration="4706000" />
     </task>
     <task id="LOCAL−00001" summary="lagt til projekt">
       <created>1662111439275</created>
@@ -152,7 +168,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1663963003537</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="laget en test dobbeltlenket liste">
+      <created>1664537422075</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1664537422075</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +198,7 @@
     <MESSAGE value="Lagt til forelæsningskode om rekursjon" />
     <MESSAGE value="Lagt til forelæsningskode om binærsøk i rekursjon" />
     <MESSAGE value="Lagt til opgaver i delkapitel 1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lagt til opgaver i delkapitel 1.4" />
+    <MESSAGE value="laget en test dobbeltlenket liste" />
+    <option name="LAST_COMMIT_MESSAGE" value="laget en test dobbeltlenket liste" />
   </component>
 </project>
