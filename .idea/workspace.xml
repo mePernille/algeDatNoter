@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="laget en test dobbeltlenket liste">
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/EnkeltLenketListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Stakk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitelFire/TabellStakk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitelTre/Beholder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitelTre/NodeTrening.java" afterDir="false" />
+    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="begyndt på kapitel 4's opgaver">
+      <change afterPath="$PROJECT_DIR$/src/kapitelFire/Koe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/treer/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitelFire/TabellStakk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitelFire/TabellStakk.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prnll/OneDrive/Documents/DATS2300 algoritmer&amp;data/algdat-2022-oblig-2-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prnll/OneDrive/Documents/DATS2300 algoritmer&amp;data/oblig-3-template-master/oblig-3-template-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,7 +47,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NodeTrening">
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treer.HeapSort" />
+      <module name="algeDatNoter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NodeTrening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kapitelTre.NodeTrening" />
       <module name="algeDatNoter" />
@@ -91,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.NodeTrening" />
         <item itemvalue="Application.metodenMain" />
         <item itemvalue="Application.TabellFortsat" />
@@ -118,7 +130,9 @@
       <workItem from="1664440803129" duration="223000" />
       <workItem from="1664454184818" duration="1661000" />
       <workItem from="1664531112491" duration="7277000" />
-      <workItem from="1666021180837" duration="4706000" />
+      <workItem from="1666021180837" duration="10484000" />
+      <workItem from="1666354039809" duration="3125000" />
+      <workItem from="1667222594287" duration="4863000" />
     </task>
     <task id="LOCAL−00001" summary="lagt til projekt">
       <created>1662111439275</created>
@@ -174,7 +188,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1664537422075</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="begyndt på kapitel 4's opgaver">
+      <created>1666026196038</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1666026196038</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +219,7 @@
     <MESSAGE value="Lagt til forelæsningskode om binærsøk i rekursjon" />
     <MESSAGE value="Lagt til opgaver i delkapitel 1.4" />
     <MESSAGE value="laget en test dobbeltlenket liste" />
-    <option name="LAST_COMMIT_MESSAGE" value="laget en test dobbeltlenket liste" />
+    <MESSAGE value="begyndt på kapitel 4's opgaver" />
+    <option name="LAST_COMMIT_MESSAGE" value="begyndt på kapitel 4's opgaver" />
   </component>
 </project>
