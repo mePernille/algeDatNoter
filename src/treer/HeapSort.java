@@ -8,7 +8,8 @@ public class HeapSort {
 
         heapsort(value);
     }
-
+    // samme kompleksitet som quicksort, som er ganske effektiv
+    // O( nlogn ) kompleksitet
     static void heapsort(int[] value){
         System.out.println("Array før sortering" + Arrays.toString(value));
         heapify(value);
@@ -29,8 +30,8 @@ public class HeapSort {
             int right_child = current *2 +1;
             while(true){
                 //venstre barn er mindst af barna, og mindre end parent
-              if(left_child<last
-                      && value[left_child]< value[right_child]
+              if(left_child < last
+                      && value[left_child] < value[right_child]
                       && value[left_child] < value[current]){
                   System.out.println("bytter " + current + " med " + left_child);
                   int temp2 = value[left_child];
@@ -40,7 +41,7 @@ public class HeapSort {
 
               }
                 // højre barn er mindst av barna, og mindre end parent
-              if(right_child < last
+              else if(right_child < last
                        && value[right_child] < value[left_child]
                       && value[right_child] < value[current]){
                   System.out.println("bytter " + current + " med " + right_child);
@@ -64,7 +65,7 @@ public class HeapSort {
     }
     static void heapify(int[] values) {
         // en funktion som gør om en array til et træ
-        for (int i = 1; i < values.length; i++) { // starter på 1 og ikke nul
+        for (int i = 1; i < values.length; ++i) { // starter på 1 og ikke nul
 
             int current = i;
             int parent = i/2;
