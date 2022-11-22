@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="lagt til ting fra kap 5">
-      <change afterPath="$PROJECT_DIR$/src/eksempelklasser/Graf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafer/grafTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treer/testingHashCoding.java" afterDir="false" />
+    <list default="true" id="2cf37f82-9128-4fa7-b0cd-b256b5f136ff" name="Changes" comment="Begyndt på grafer">
+      <change afterPath="$PROJECT_DIR$/src/EksamenOving/oving.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForelesningKode/JavaGenerics1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForelesningKode/JavaGenerics1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafer/grafTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafer/grafTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prnll/OneDrive/Documents/DATS2300 algoritmer&amp;data/oblig-3-template-master/oblig-3-template-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prnll/OneDrive/Documents/DATS2300 algoritmer&amp;data/oblig-1-gruppe-35&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -148,7 +148,12 @@
       <workItem from="1666354039809" duration="3125000" />
       <workItem from="1667222594287" duration="15695000" />
       <workItem from="1667815635771" duration="6767000" />
-      <workItem from="1668165032479" duration="4451000" />
+      <workItem from="1668165032479" duration="4479000" />
+      <workItem from="1668602126964" duration="665000" />
+      <workItem from="1668772805441" duration="8511000" />
+      <workItem from="1669118752739" duration="34000" />
+      <workItem from="1669121707090" duration="104000" />
+      <workItem from="1669122358190" duration="702000" />
     </task>
     <task id="LOCAL−00001" summary="lagt til projekt">
       <created>1662111439275</created>
@@ -224,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667503285400</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Begyndt på grafer">
+      <created>1668170464538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668170464538</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +264,7 @@
     <MESSAGE value="begyndt på kapitel 4's opgaver" />
     <MESSAGE value="lagt til heap sortering" />
     <MESSAGE value="lagt til ting fra kap 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="lagt til ting fra kap 5" />
+    <MESSAGE value="Begyndt på grafer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Begyndt på grafer" />
   </component>
 </project>

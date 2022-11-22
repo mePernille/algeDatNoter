@@ -4,10 +4,6 @@ public class JavaGenerics1 {
 
     public static void main(String[] args){
 
-      /*  for(int x = -10; x<=10; x++){
-            System.out.println(x + " " + ternaryIntervalCheck(x));
-        } */
-
         int[] v = {2, 4, 6, 1, 7, 9, 13, 15};
         Integer[] v2 = {4, 2, 6, 89, 1, 98, 3}; // denne må brukes når man bruker compareTo
         Character[] c2 = {'A', 'F', 'E', 'L', 'P'}; // samme med denne
@@ -53,7 +49,7 @@ public class JavaGenerics1 {
     }
 
     public static int maksInt(int[] x){
-        // retunrer indeks til største verdi
+        // retunerer indeks til største verdi
         int mi = 0; //maksindeks
         int mv = x[mi];
         for(int i=1; i<x.length; i++){
